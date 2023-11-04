@@ -1,0 +1,358 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <meta name="description" content="Квалифицированная ветеринарная помощь в Мариуполе. Диагностика, лечение, профилактика, хирургическое вмешательство, выдача ветеринарных паспортов и документов в Мариуполе." />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="&#x41C;&#x430;&#x440;&#x438;&#x443;&#x43F;&#x43E;&#x43B;&#x44C;, &#x41C;&#x430;&#x440;&#x456;&#x443;&#x43F;&#x43E;&#x43B;&#x44C;, &#x41B;&#x435;&#x432;&#x44B;&#x439; &#x431;&#x435;&#x440;&#x435;&#x433;, &#x432;&#x43E;&#x441;&#x442;&#x43E;&#x447;&#x43D;&#x44B;&#x439; &#x43C;&#x43A;&#x440;, &#x43F;&#x43B;&#x43E;&#x449;&#x430;&#x434;&#x44C;, &#x43E;&#x440;&#x434;&#x436;&#x43E;&#x43D;&#x438;&#x43A;&#x438;&#x434;&#x437;&#x435;&#x432;&#x441;&#x43A;&#x438;&#x439;,&#xD;&#xA;          &#x43A;&#x430;&#x441;&#x442;&#x440;&#x430;&#x446;&#x438;&#x44F;, &#x43A;&#x43E;&#x441;&#x442;&#x440;&#x430;&#x446;&#x438;&#x44F;, &#x441;&#x442;&#x435;&#x440;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F;, 40&#x44F; &#x448;&#x43A;&#x43E;&#x43B;&#x430;, &#x431;&#x43E;&#x43B;&#x44C;&#x43D;&#x438;&#x446;&#x430;, &#x43A;&#x43B;&#x438;&#x43D;&#x438;&#x43A;&#x430;, &#x43B;&#x435;&#x447;&#x435;&#x431;&#x43D;&#x438;&#x446;&#x430;, &#x432;&#x44B;&#x435;&#x437;&#x434; &#x43D;&#x430; &#x434;&#x43E;&#x43C;, &#x432;&#x435;&#x442;&#x435;&#x440;&#x438;&#x43D;&#x430;&#x440;, &#x432;&#x435;&#x442; &#x43A;&#x43B;&#x438;&#x43D;&#x438;&#x43A;&#x430;, &#x432;&#x435;&#x442; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;,&#xD;&#xA;          &#x43B;&#x435;&#x447;&#x435;&#x43D;&#x438;&#x435;, &#x43A;&#x43E;&#x448;&#x435;&#x43A;, &#x441;&#x43E;&#x431;&#x430;&#x43A;, &#x43F;&#x442;&#x438;&#x446;, &#x43A;&#x440;&#x43E;&#x43B;&#x435;&#x439;, &#x43A;&#x440;&#x43E;&#x43B;&#x438;&#x43A;&#x43E;&#x432;, &#x436;&#x438;&#x432;&#x43E;&#x442;&#x43D;&#x44B;&#x435;, &#x43F;&#x430;&#x441;&#x43F;&#x43E;&#x440;&#x442;, &#x432;&#x435;&#x442;&#x435;&#x440;&#x438;&#x43D;&#x430;&#x440;&#x43D;&#x44B;&#x435; &#x434;&#x43E;&#x43A;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x44B;" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <title>Мариупольская Левобережная Ветеринарная Клиника - &#x413;&#x43B;&#x430;&#x432;&#x43D;&#x430;&#x44F;</title>
+    <link href="/libs/slick/slick.css" rel="stylesheet" />
+    <link href="./style/style.css" rel="stylesheet" />
+</head>
+<body class="hidden">
+    <div id="main-block">
+        <div :class="{'loader': !isLoaded}">
+            <div :class="{'spinner':!isLoaded}"></div>
+        </div>
+        <header class="header">
+            
+<div class="header__infoBlock">
+    <div class="header__wrapper">
+        <div class="header__infoHomeBlock">
+            <img src="/img/icons/home.svg" alt="home" class="header__infoIcon header__infoIcon-home" />
+            <p class="header__infoText">г. Мариуполь, проспект Победы, 48а</p>
+        </div>
+        <div class="header__infoPhoneBlock">
+            <img src="/img/icons/phone.svg" alt="phone" class="header__infoIcon header__infoIcon-phone" />
+            <a href="tel:0717235423" class="header__infoText">(071) 723 - 54 - 23 </a>
+            <a href="tel:0676241574" class="header__infoText header__infoText-phone">(067) 624 - 15 - 74</a>
+            <a href="tel:0982853717" class="header__infoText header__infoText-phone">(098) 285 - 37 - 17</a>
+            <a href="tel:0629570131" class="header__infoText header__infoText-phone">(0629) 57 - 01 - 31</a>
+        </div>
+        <div class="header__infoCalendarBlock">
+            <img src="/img/icons/calendar.svg" alt="calendar" class="header__infoIcon header__infoIcon-calendar" />
+            <p class="header__infoText"><span>Пн - Пт</span> 8:00 - 18:00</p>
+            <p class="header__infoText header__infoText-calendar"><span>Сб - Вс</span> 8:00 - 14:00 </p>
+        </div>
+    </div>
+</div>
+<div class="header__navBlock">
+    <div class="header__wrapper">
+        <a href="#" class="header__logo">
+            <img src="/img/logo.svg" alt="logo" />
+        </a>
+        <nav class="header__nav">
+            <a class="header__navLink header__navLink-active" href="/">Главная</a>
+            <a class="header__navLink " href="/aboutus">О Клинике</a>
+            <a class="header__navLink " href="/Services">Наши Услуги</a>
+            <a class="header__navLink " href="/articles">Полезные Статьи</a>
+            <a class="header__navLink " href="/Faq">Вопрос / Ответ</a>
+            <a class="header__navLink " href="/contacts">Контакты</a>
+        </nav>
+        <div class="header__questionBlock" @click.stop="modals.question.displayed = !modals.question.displayed">
+            <img src="/img/icons/pet.svg" alt="pet" class="header__questionIcon" />
+            <a class="header__questionText">Задать вопрос</a>
+        </div>
+    </div>
+</div>
+        </header>
+        <main class="main">
+            
+
+
+<link href="/css/dist/stylesh1.css" rel="stylesheet" />
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="main__indexHeaderBlock">
+    <div class="wrapper">
+        <img src="img/index/pets.png" alt="pets" class="main__indexHeaderPetsImg" />
+        <img src="img/index/bird.png" alt="bird" class="main__indexHeaderBirdImg" />
+        <div class="main__indexHeaderContent">
+            <h1 class="main__indexHeaderContentHeadline">Мы заботимся о <span>ваших питомцах!</span></h1>
+            <p class="main__indexHeaderContentText">
+                Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний
+                по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике
+                сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить
+                любие процедуры, которые необходимы Вашему домашнему любимцу.
+            </p>
+            <a href="#" class="main__indexHeaderContentButton">Наши услуги</a>
+        </div>
+    </div>
+</div>
+<div class="main__indexQuoteBlock">
+    <div class="wrapper">
+        <span class="main__indexQuoteDelimiter"></span>
+        <div class="main__indexQuoteTextBlock">
+            <img src="img/index/left.svg" alt="quote" class="main__indexQuoteTextImg" />
+            <p class="main__indexQuoteText">
+                Наша ветеринарная клиника готова уделить максимум
+                внимания Вам и Вашему питамцу. Здоровье и благополучие
+                Ваших животных очень важно для нас и мы стремимся оказать наилучшую возможную ветеринарную помощь.
+            </p>
+            <img src="img/index/right.svg" alt="quote" class="main__indexQuoteTextImg main__indexQuoteTextImg-right" />
+        </div>
+        <span class="main__indexQuoteDelimiter"></span>
+        <p class="main__indexQuoteAuthor">Оржоникидзевская Ветеринарная клиника</p>
+    </div>
+</div>
+<div class="main__indexServicesBlock">
+    <div class="wrapper">
+        <h2 class="main__indexArticleSliderHeadline">Наши услуги</h2>
+        <div class="main__indexServicesArrows">
+            <img src="img/servicesSlider/leftArrow.svg" alt="left" class="main__indexServicesArrow main__indexServicesArrow-prev" />
+            <img src="img/servicesSlider/rightArrow.svg" alt="right" class="main__indexServicesArrow main__indexServicesArrow-next" />
+        </div>
+        <div class="main__indexServicesTabButtons">
+            <div v-for="item in services" class="main__indexServicesTabButton">
+                <img :src="item.icon != null ? item.icon.path: null" alt="service" class="main__indexServicesTabButtonImg" />
+                <p class="main__indexServicesTabButtonText">{{item.header}}</p>
+            </div>
+        </div>
+        <div class="main__indexServicesTabs">
+            <div v-for="item in services" class="main__indexServicesTab">
+                <img :src="item.sliderLogo.path" alt="img" class="main__indexServicesTabImg" />
+                <div class="main__indexServicesTabContentBlock">
+                    <h2 class="main__sliderContentHeadline" v-html="renderSliderHeader(item.header)"></h2>
+                    <p class="main__indexServicesTabContentText">
+                        {{item.previewText}}
+                    </p>
+                    <div class="main__articleContentButtons">
+                        <a :href="'/services/' + item.id" class="main__articleContentButton main__articleContentButton-black">
+                            <img src="img/articles/doc.svg" alt="doc" class="main__articleContentButtonIcon" />
+                            Читать подробнее...
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main__indexEmailBlock">
+    <div class="wrapper">
+        <div class="main__indexEmail">
+            <h2 class="main__indexEmailHeadline">Будь в курсе событий</h2>
+            <form ref="subscribeForm" class="main__indexEmailForm" v-on:submit.prevent="subscribeToNews" action="/Subscribe/AddNewEmail" method="post">
+                <input type="email" class="main__indexEmailFormInput" placeholder="Укажите Ваш email адрес" v-model="subscribeEmail" data-val="true" data-val-required="&#x41F;&#x43E;&#x436;&#x430;&#x43B;&#x443;&#x439;&#x441;&#x442;&#x430;, &#x443;&#x43A;&#x430;&#x436;&#x438;&#x442;&#x435; email " id="Email" name="Email" value="" />
+                <button :disabled='subscribeStatus == 1' :class="{'main__indexEmailFormButton': true, 'main__blogArticlesMore-loading':subscribeStatus == 1}">
+                    <img v-show="subscribeStatus == 1" src="img/blog/load.png" alt="load" class="main__blogArticlesMoreImg">
+                    Подписаться
+                </button>
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8Fc5MomkL_hPpQ3dmBtI0sU9PipBH3azW4QqwbuIRIT3d69BVy6KCYUrEX68Yq1xMGja5OJ6leVMkYJ-2lpI9IZNMoqqysH_e6UffkXi5SwfgsNDloBbXbqhh7lt6_FATnlLoV1ONfercKxpWiHe2t8" /></form>
+        </div>
+        <img src="img/index/dog.png" alt="dog" class="main__indexEmailImg" />
+    </div>
+</div>
+<div class="main__blogBlock">
+    <div class="wrapper">
+        <div class="main__articleContentMoreArticle main__articleContentMoreArticle-blog">
+            <img src="\img\articles\Visit\slider-logo.png" alt="more" class="main__articleContentMoreArticleImg">
+            <div class="main__indexSlidesContentBlock">
+                <div class="main__indexSliderTagBlock">
+                    <div class="main__indexSliderTags">
+                        <a href="#" class="main__indexSliderTag">#собака</a>
+                        <a href="#" class="main__indexSliderTag">#дом</a>
+                        <a href="#" class="main__indexSliderTag">#уход</a>
+                    </div>
+                    <p class="main__articleContentMoreArticleDate">29.08.2020</p>
+                </div>
+                <h2 class="main__articleContentMoreArticleHeadline active-header">&#x421;&#x432;&#x43E;&#x435;&#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43E;&#x431;&#x440;&#x430;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x432; &#x432;&#x435;&#x442;&#x43A;&#x43B;&#x438;&#x43D;&#x438;&#x43A;&#x443;</h2>
+                <p class="main__articleContentMoreArticleText">
+                    &#x412; &#x441;&#x43E;&#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E;&#x43C; &#x43C;&#x438;&#x440;&#x435; &#x43B;&#x44E;&#x434;&#x438; &#x43E;&#x447;&#x435;&#x43D;&#x44C; &#x43B;&#x44E;&#x431;&#x44F;&#x442; &#x43E;&#x442;&#x43A;&#x43B;&#x430;&#x434;&#x44B;&#x432;&#x430;&#x442;&#x44C; &#x43F;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43C;&#x44B; &#x441;&#x43E; &#x437;&#x434;&#x43E;&#x440;&#x43E;&#x432;&#x44C;&#x435;&#x43C; &#x43D;&#x430; &#xAB;&#x443;&#x434;&#x43E;&#x431;&#x43D;&#x43E;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F;&#xBB;, &#x442;&#x430;&#x43A;&#x438;&#x43C; &#x43E;&#x431;&#x440;&#x430;&#x437;&#x43E;&#x43C;, &#x43F;&#x43E;&#x434;&#x432;&#x435;&#x440;&#x433;&#x430;&#x44F; &#x441;&#x435;&#x431;&#x44F; &#x440;&#x438;&#x441;&#x43A;&#x443;. &#x418; &#x435;&#x441;&#x43B;&#x438; &#x447;&#x435;&#x43B;&#x43E;&#x432;&#x435;&#x43A; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x43A;&#x43E;&#x43C;&#x443;-&#x442;&#x43E; &#x43F;&#x43E;&#x436;&#x430;&#x43B;&#x43E;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x43E; &#x441;&#x432;&#x43E;&#x435;&#x439; &#x43F;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43C;&#x435;, &#x442;&#x43E; &#x436;&#x438;&#x432;&#x43E;&#x442;&#x43D;&#x43E;&#x435;, &#x43A; &#x441;&#x43E;&#x436;&#x430;&#x43B;&#x435;&#x43D;&#x438;&#x44E;, &#x43D;&#x435; &#x438;&#x43C;&#x435;&#x435;&#x442; &#x442;&#x430;&#x43A;&#x43E;&#x439; &#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E;&#x441;&#x442;&#x438;. &#x412; &#x441;&#x432;&#x43E;&#x435;&#x439; &#x43F;&#x440;&#x430;&#x43A;&#x442;&#x438;&#x43A;&#x435; &#x432;&#x435;&#x442;&#x435;&#x440;&#x438;&#x43D;&#x430;&#x440;&#x44B; &#x441;&#x442;&#x430;&#x43B;&#x43A;&#x438;&#x432;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x441; &#x442;&#x435;&#x43C;, &#x447;&#x442;&#x43E; &#x432;&#x43B;&#x430;&#x434;&#x435;&#x43B;&#x44C;&#x446;&#x44B; &#x43F;&#x438;&#x442;&#x43E;&#x43C;&#x446;&#x435;&#x432; &#x43C;&#x43E;&#x433;&#x443;&#x442; &#x43D;&#x435; &#x437;&#x430;&#x43C;&#x435;&#x447;&#x430;&#x442;&#x44C; &#x431;&#x43E;&#x43B;&#x435;&#x437;&#x43D;&#x44C; &#x436;&#x438;&#x432;&#x43E;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x438;&#x43B;&#x438; &#x434;&#x443;&#x43C;&#x430;&#x442;&#x44C;, &#x447;&#x442;&#x43E; &#xAB;&#x441;&#x430;&#x43C;&#x43E; &#x43F;&#x440;&#x43E;&#x439;&#x434;&#x435;&#x442;&#xBB;. &#x41D;&#x43E;, &#x43F;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43C;&#x44B; &#x441;&#x430;&#x43C;&#x438; &#x441;&#x43E;&#x431;&#x43E;&#x439; &#x43D;&#x435; &#x43F;&#x440;&#x43E;&#x445;&#x43E;&#x434;&#x44F;&#x442;, &#x433;&#x43E;&#x432;&#x43E;&#x440;&#x44F;&#x442; &#x441;&#x43F;&#x435;&#x446;&#x438;&#x430;&#x43B;&#x438;&#x441;&#x442;&#x44B;, &#x430; &#x43A;&#x430;&#x436;&#x434;&#x44B;&#x439; &#x434;&#x435;&#x43D;&#x44C; &#x43E;&#x436;&#x438;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x43F;&#x440;&#x438;&#x432;&#x435;&#x441;&#x442;&#x438; &#x43A; &#x441;&#x435;&#x440;&#x44C;&#x435;&#x437;&#x43D;&#x44B;&#x43C; &#x43F;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43C;&#x430;&#x43C;
+                </p>
+                <div class="main__articleContentMoreArticleLinkBlock">
+                    <a href="/articles/6094464564733cb48b97ce0d" class="main__articleContentMoreArticleLink">Читать больше</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main__blogArticlesBlock">
+    <div class="wrapper">
+        <div class="main__blogArticles">
+            <div v-for="item in articles.list" class="main__articleContentMoreArticle">
+                <img :src="item.sliderLogo.path" alt="more" class="main__articleContentMoreArticleImg" />
+                <p class="main__articleContentMoreArticleDate">28.08.2020</p>
+                <h2 class="main__articleContentMoreArticleHeadline active-header" @click="window.location.href = '/articles/' + item.id">{{item.header}}</h2>
+                <p class="main__articleContentMoreArticleText">
+                    {{item.previewText}}
+                </p>
+                <div class="main__articleContentMoreArticleLinkBlock">
+                    <a :href="'/articles/' + item.id" class="main__articleContentMoreArticleLink">Читать больше</a>
+                </div>
+            </div>
+        </div>
+        <center>
+            <button :class="{'main__blogArticlesMore': true, 'hidden': articles.currPage >= articles.totalPages}" @click="loadMoreArticles">
+                <img src="img/blog/load.png" alt="load" class="main__blogArticlesMoreImg">
+                Больше статей
+            </button>
+        </center>
+    </div>
+</div>
+
+<div class="main__indexSupportBlock">
+    <div id="map" class="main__contactsMapContentGoogleBlock main__contactsMapContentGoogleBlock-index"></div>
+    <div class="main__indexSupportFormBlock">
+        <form ref="feedbackForm" class="main__articleAskForm main__articleAskForm-index" method="post">
+            <h2 class="main__indexSupportHeadline">Обратная связь</h2>
+            <p class="main__indexSupportText">
+                При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:
+            </p>
+            <input class="main__articleAskFormInput" placeholder="Ваше имя" v-model="feedback.name" type="text" data-val="true" data-val-required="The Name field is required." id="Name" name="Name" value="" />
+            <input class="main__articleAskFormInput" placeholder="Email для обратной связи" v-model="feedback.email" type="email" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Email" name="Email" value="" />
+            <textarea class="main__articleAskFormTextarea" placeholder="Опишите Ваш вопрос." v-model="feedback.description" data-val="true" data-val-required="The Question field is required." id="Question" name="Question">
+</textarea>
+            <button :disabled='feedback.status == 1' @click="submitFeedback($event)" :class="{'main__articleAskFormButton': true, 'main__blogArticlesMore-loading': feedback.status == 1}">
+                <img v-show="feedback.status == 1" src="img/blog/load.png" alt="load" class="main__blogArticlesMoreImg">
+                Задать нам вопрос
+            </button>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8Fc5MomkL_hPpQ3dmBtI0sU9PipBH3azW4QqwbuIRIT3d69BVy6KCYUrEX68Yq1xMGja5OJ6leVMkYJ-2lpI9IZNMoqqysH_e6UffkXi5SwfgsNDloBbXbqhh7lt6_FATnlLoV1ONfercKxpWiHe2t8" /></form>
+        <img src="img/index/fish.png" alt="fish" class="main__indexSupportFish" />
+    </div>
+</div>
+
+
+            <notifications group="foo" position="bottom right" style="width:auto;">
+                <template slot="body" slot-scope="props">
+    <div class="foo">
+        <div class="notification__subscribe notification__subscribe-active">
+            <div class="notification__subscribeContent">
+                <span class="notification__subscribeContentLine"></span>
+                <div class="notification__subscribeTextBlock">
+                    <img src="/img/about/msgDog.svg" alt="dog" class="notification__subscribeTextBlockImg" />
+                    <p class="notification__subscribeText">{{ props.item.text }}</p>
+                </div>
+                <img src="/img/about/close.svg" alt="close" @click="props.close" class="notification__subscribeCloseImg" />
+            </div>
+        </div>
+    </div>
+</template>
+            </notifications>
+            <notifications group="error" position="bottom right" class="notifcation-error" style="width:auto;">
+                <template slot="body" slot-scope="props">
+    <div class="foo">
+        <div class="notification__subscribe notification__subscribe-active">
+            <div class="notification__subscribeContent">
+                <span class="notification__subscribeContentLine"></span>
+                <div class="notification__subscribeTextBlock">
+                    <img src="/img/about/msgDog.svg" alt="dog" class="notification__subscribeTextBlockImg" />
+                    <p class="notification__subscribeText">{{ props.item.text }}</p>
+                </div>
+                <img src="/img/about/close.svg" alt="close" @click="props.close" class="notification__subscribeCloseImg" />
+            </div>
+        </div>
+    </div>
+</template>
+            </notifications>
+        </main>
+        <footer class="footer">
+            <div class="footer__wrapper">
+    <div class="footer__contentBlock">
+        <a href="#" class="footer__logo">
+            <img src="/img/logo-footer.svg" alt="logo-footer" />
+        </a>
+        <div class="footer__navBlock">
+            <div class="footer__navColumn">
+                <a class="footer__navLink" href="/">Главная</a>
+                <a href="#" class="footer__navLink">О Клинике</a>
+                <a class="footer__navLink" href="/Services">Наши Услуги</a>
+            </div>
+            <div class="footer__navColumn">
+                <a href="#" class="footer__navLink">Полезные Статьи</a>
+                <a href="#" class="footer__navLink">FAQ</a>
+                <a class="footer__navLink" href="/contacts">Контакты</a>
+            </div>
+        </div>
+        <div class="footer__infoBlock">
+            <div class="footer__infoColumn">
+                <img src="/img/icons/calendar.svg" alt="calendar-footer" class="footer__infoIcon" />
+                <div class="footer__infoTextBlock">
+                    <p class="footer__infoText"><span>Пн - Пт</span> 8:00 - 18:00</p>
+                    <p class="footer__infoText"><span>Сб - Вс</span> 8:00 - 14:00</p>
+                </div>
+            </div>
+            <div class="footer__infoColumn footer__infoColumn-home">
+                <img src="/img/icons/home.svg" alt="home-footer" class="footer__infoIcon" />
+                <div class="footer__infoTextBlock">
+                    <p class="footer__infoText">г. Мариуполь,</p>
+                    <p class="footer__infoText">проспект Победы, 48а</p>
+                </div>
+            </div>
+            <div class="footer__infoColumn footer__infoColumn-home">
+                <img src="/img/icons/phone.svg" alt="phone-footer" class="footer__infoIcon" />
+                <div class="footer__infoTextBlock">
+                    <a href="tel:0717235423" class="footer__infoText">(071) 723 - 54 - 23</a>
+                    <a href="tel:0676241574" class="footer__infoText">(067) 624 - 15 - 74</a>
+                    <a href="tel:0982853717" class="footer__infoText">(098) 285 - 37 - 17</a>
+                    <a href="tel:0629570131" class="footer__infoText">(0629) 57 - 01 - 31</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="footer__copyright">© 2022. All Rights Reserved.</p>
+</div>
+        </footer>
+        
+<div class="modal modalQuestions" onclick="void(0)">
+    <div class="modal__content">
+        <img src="/img/popup/close.svg" alt="close" class="modal__closeBtn modal__closeBtn-questions" />
+        <div class="modal__contentFormBlock">
+            <h2 class="modal__contentFormBlockTitle">Остались вопросы?</h2>
+            <form class="main__articleAskForm" method="post" data-askQuestion action="/Question/Ask">
+                <input class="main__articleAskFormInput" placeholder="Ваше имя" type="text" data-val="true" data-val-required="&#x41F;&#x43E;&#x43B;&#x435; Name &#x43E;&#x431;&#x44F;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435;." id="Name" name="Name" value="" />
+                <span class="popup-error field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+
+                <input class="main__articleAskFormInput" placeholder="Email для обратной связи" type="email" data-val="true" data-val-email="Email &#x43D;&#x435; &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x43D;&#x44B;&#x439;. &#x41F;&#x43E;&#x43F;&#x440;&#x43E;&#x431;&#x443;&#x439;&#x442;&#x435; &#x435;&#x449;&#x435; &#x440;&#x430;&#x437;." data-val-required="&#x41F;&#x43E;&#x43B;&#x435; Email &#x43E;&#x431;&#x44F;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435;." id="Email" name="Email" value="" />
+                <span class="popup-error field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+
+                <textarea class="main__articleAskFormTextarea" placeholder="Опишите Ваш вопрос." data-val="true" data-val-required="&#x41F;&#x43E;&#x43B;&#x435; Question &#x43E;&#x431;&#x44F;&#x437;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x435;." id="Question" name="Question">
+</textarea>
+                <span class="popup-error field-validation-valid" data-valmsg-for="Question" data-valmsg-replace="true"></span>
+                <br />
+                <button class="main__articleAskFormButton">Задать вопрос</button>
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8Fc5MomkL_hPpQ3dmBtI0sU9PipBH3azW4QqwbuIRIT3d69BVy6KCYUrEX68Yq1xMGja5OJ6leVMkYJ-2lpI9IZNMoqqysH_e6UffkXi5SwfgsNDloBbXbqhh7lt6_FATnlLoV1ONfercKxpWiHe2t8" /></form>
+        </div>
+        <img src="/img/popup/dog.png" alt="dog" class="modal__contentImg" />
+    </div>
+</div>
+
+        <popup :displayed="modals.question.displayed">
+            <div class="modal__contentAuthBlock">
+                
+<h2 class="modal__contentFormBlockTitle">Задать вопрос</h2>
+<form onclick="void(0)" class="main__articleAskForm" ref="questionForm">
+    <input class="main__articleAskFormInput" placeholder="Ваше имя" v-model="modals.question.name" type="text" data-val="true" data-val-required="The Name field is required." id="Name" name="Name" value="" />
+    <input class="main__articleAskFormInput" placeholder="Ваш Email" v-model="modals.question.email" type="text" data-val="true" data-val-required="The Email field is required." id="Email" name="Email" value="" />
+    <textarea class="main__articleAskFormTextarea" placeholder="Опишите Ваш вопрос." v-model="modals.question.description" data-val="true" data-val-required="The Question field is required." id="Question" name="Question">
+</textarea>
+    <button @click="askQuestion($event)" :disabled='modals.question.status == 1' :class="{'main__articleAskFormButton': true, 'main__blogArticlesMore-loading': modals.question.status == 1}">
+        <img v-show="modals.question.status == 1" src="img/blog/load.png" alt="load" class="main__blogArticlesMoreImg">
+        Отправить
+    </button>
+</form>
+            </div>
+        </popup>
+    </div>
+    <script>
+        const BASE_DOMAIN = 'https://vethelp.com.ua'
+        const CAPTCHA_SITE = '6Lcl9rgaAAAAAGgiNMEpg2iIuu9RfiO19qDt_qej';
+    </script>
+    <script src="/js/jquery-3.1.0.min.js"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="/libs/slick/slick.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lcl9rgaAAAAAGgiNMEpg2iIuu9RfiO19qDt_qej"></script>
+    
+    <script src="/js/jquery-3.1.0.min.js"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="/libs/slick/slick.min.js"></script>
+    <script src="/js/dist/pages/landing.bundle.js"></script>
+
+</body>
+</html>
